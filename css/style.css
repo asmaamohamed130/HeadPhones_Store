@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+header .front {
+    background-image: url("../image/1.jpg");
+    width: 100%;
+    height: 1000px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+    position: relative;
+}
+.front .welcome{
+    width: 30%;
+    position: absolute;
+    top:40%;
+    left: 10%;
+}
+.front .welcome h6{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.front .welcome h1{
+    font-size: 50px;
+}
+.front .welcome button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+}
+.front .welcome button:hover{
+    cursor: pointer;
+}
+.find span{
+    font-weight: bold;
+}
+.find {
+    padding: 5% 0;
+
+    font-size: 20px;
+}
+.find p{
+   padding: 2% 0;
+   letter-spacing: 1px;
+
+}
+.help{
+    background-color: rgb(238, 176, 20);
+    text-align: center;
+}
+.help h3{
+    padding: 3% 4%;
+    color: white;
+    font-size: 35px;
+}
+.hottest{
+    margin: 2% 0;
+}
+.hottest_in{
+    margin: 2% 0;
+}
+.hottest .child1{
+    width: 32%;
+    position: relative;
+    float: left;
+}
+.hottest .child1 .imge1 img{
+    width: 100%;
+}
+ .hottest .child2{
+    width: 32%;
+    position: relative;
+    float: left;
+    margin: 0 2%;
+}
+
+.hottest .child2 .imge2 img{
+    width: 100%;
+}
+.hottest .child3{
+    width: 32%;
+    position: relative;
+    float: left;
+}
+.hottest .child3 .imge3 img{
+    max-width: 100%;
+   
+} 
+.hottest .child1 button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color:rgb(238, 176, 20) ;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+}
+.hottest .child1 .para1{
+    background-color: rgb(238, 176, 20);
+    margin: 0;
+    padding: 20px 80px 30px 30px;
+}
+.hottest .child1 .para1 p{
+    color: white;
+}
+.hottest .child2 .para2 p{
+    color: white;
+}
+.hottest .child3 .para3 p{
+    color: white;
+}
+.hottest .child2 button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color:rgb(238, 176, 20) ;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+}
+.hottest .child2 .para2{
+    background-color: rgb(238, 176, 20);
+    
+    padding: 20px 80px 30px 30px;
+}
+.hottest .child3 button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color:rgb(238, 176, 20) ;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+}
+.hottest .child3 .para3{
+    background-color: rgb(238, 176, 20);
+    
+    padding: 20px 80px 30px 30px;
+}
+.our_new{
+    margin: 2% 0;
+}
+.our_new .new{
+    margin: 2% 0;
+}
+.new .child1{
+    width: 24.25%;
+    float: left;
+}
+.new .child2{
+    width: 24.25%;
+    margin: 0 1%;
+    float: left;
+}
+.new .child3{
+    width: 24.25%;
+    margin-right: 1%;
+    float: left;
+}
+.new .child4{
+    width: 24.25%;
+    float: left;
+}
+.new .child5{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+}
+.new .child6{
+    width: 24.25%;
+    margin-right: 1%;
+    float: left;
+}
+.new .child7{
+    width: 24.25%;
+    margin-right: 1%;
+    float: left;
+}
+.new .child8{
+    width: 24.25%;
+    float: left;
+}
+.new .child1 img{
+max-width: 100%;
+
+}
+.new .child2 img{
+max-width: 100%;
+}
+.new .child3 img{
+ max-width: 100%;
+}
+.new .child4 img{
+max-width: 100%;
+}
+.new .child5 img{
+max-width: 100%;
+}
+.new .child6 img{
+max-width: 100%;
+}
+.new .child7 img{
+max-width: 100%;
+}
+.new .child8 img{
+max-width: 100%;
+}
+.discount{
+    background-color:rgb(238, 176, 20) ;
+    padding: 2% 12% 4% ;
+} 
+/* .discount .butt{
+    border-radius: 25%;
+    float: left;
+    border: none;
+    width: 19%;
+}
+.discount .para{
+    color: white;
+    padding: 2% 12% 2% 0;
+    width: 57%;
+    
+   
+}  */
+.discount{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px 200px;
+}
+.discount .para{
+    
+    float: left;
+    margin: 0 100px;
+    width: 57%;
+    color: #fff;
+    letter-spacing:1px ;
+    
+}
+.discount button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    /* border: none;
+    float: left;
+    width:30%;
+    padding: 1% 10%;
+    margin-top: 2px;
+    border-radius: 10px; */
+}
+.discount button:hover{
+    cursor: pointer;
+}   
+ 
+.footer{
+
+    float: left;
+    background-color:#fff ;
+    padding: 2% 0% 4% ;
+    text-align: center;
+}
+.footer .footimg{
+    float: left;
+    width:8%;
+    margin-left: 200px;
+}
+.footer .footimg img{
+    max-width: 100%;
+}
+.footer .copyright{
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
+    color: dimgray;
+   
+}
+.footer .icons{
+    float: left;
+    margin-left: 200px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(238, 176, 20);;
+}
+.footer .icons i:hover{
+    font-size: 40px;
+    transition: 0.4s ease-in-out;
+}
+.footer .icons i{
+    margin-left: 4px;
+}
+    
+        
